@@ -37,7 +37,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     <title>Login</title>
   </head>
-  <body>
+  <body style="background-img:url(Screenshot (1).png)">
     <?php require 'partials/_nav.php' ?>
     <?php
     if($login){
