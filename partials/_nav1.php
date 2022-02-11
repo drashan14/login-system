@@ -14,20 +14,20 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="welcome.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="welcome1.php">Home <span class="sr-only">(current)</span></a>
       </li>';
 
       if(!$loggedin){
       echo '<li class="nav-item">
-        <a class="nav-link" href="login.php">Login</a>
+        <a class="nav-link" href="login1.php">Login</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="signup.php">Signup</a>
+        <a class="nav-link" href="signup1.php">Signup</a>
       </li>';
       }
       if($loggedin){
       echo '<li class="nav-item">
-        <a class="nav-link" href="logout.php">Logout</a>
+        <a class="nav-link" href="logout1.php">Logout</a>
       </li>';
     }
        
